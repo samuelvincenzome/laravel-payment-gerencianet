@@ -1,7 +1,7 @@
 # Gerencianet-Laravel
 
-[![Latest Stable Version](https://poser.pugx.org/samuelvincenzome/laravel-payment-gerencianet/v/stable)](https://packagist.org/packages/samuelvincenzome/laravel-payment-gerencianet)
-[![Total Downloads](https://poser.pugx.org/samuelvincenzome/laravel-payment-gerencianet/downloads)](https://packagist.org/packages/samuelvincenzome/laravel-payment-gerencianet)
+[![Latest Stable Version](https://poser.pugx.org/samuelvincenzome/laravel-gerencianet/v/stable)](https://packagist.org/packages/samuelvincenzome/laravel-gerencianet)
+[![Total Downloads](https://poser.pugx.org/samuelvincenzome/laravel-gerencianet/downloads)](https://packagist.org/packages/samuelvincenzome/laravel-gerencianet)
 [![Build Status][ico-travis]][link-travis]
 [![StyleCI](https://github.styleci.io/repos/207961888/shield?branch=master)](https://github.styleci.io/repos/207961888)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/samuelvincenzome/laravel-payment-gerencianet/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/samuelvincenzome/laravel-payment-gerencianet/?branch=master)
