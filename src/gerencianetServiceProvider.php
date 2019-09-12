@@ -2,8 +2,8 @@
 
 namespace samuelvincenzome\gerencianet;
 
-use Illuminate\Support\ServiceProvider;
 use Gerencianet\Gerencianet;
+use Illuminate\Support\ServiceProvider;
 
 class gerencianetServiceProvider extends ServiceProvider
 {
@@ -19,7 +19,6 @@ class gerencianetServiceProvider extends ServiceProvider
                 __DIR__.'/../config/gerencianet.php' => config_path('gerencianet.php'),
             ], 'config');
         }
-
     }
 
     /**
@@ -34,7 +33,7 @@ class gerencianetServiceProvider extends ServiceProvider
                 'client_id' => config('gerencianet.client_id'),
                 'client_secret' => config('gerencianet.client_secret'),
                 'sandbox' => config('gerencianet.sandbox'),
-                'timeout' => config('gerencianet.timeout')
+                'timeout' => config('gerencianet.timeout'),
             ]);
         });
     }
