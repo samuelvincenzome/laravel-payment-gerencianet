@@ -3,8 +3,8 @@
 [![Latest Stable Version](https://poser.pugx.org/samuelvincenzome/laravel-gerencianet/v/stable)](https://packagist.org/packages/samuelvincenzome/laravel-gerencianet)
 [![Total Downloads](https://poser.pugx.org/samuelvincenzome/laravel-gerencianet/downloads)](https://packagist.org/packages/samuelvincenzome/laravel-gerencianet)
 [![Build Status][ico-travis]][link-travis]
-[![StyleCI][ico-styleci]][link-styleci]
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/samuelvincenzome/gerencianet-laravel/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/samuelvincenzome/gerencianet-laravel/?branch=master)
+[![StyleCI](https://github.styleci.io/repos/207961888/shield?branch=master)](https://github.styleci.io/repos/207961888)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/samuelvincenzome/laravel-payment-gerencianet/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/samuelvincenzome/laravel-payment-gerencianet/?branch=master)
 
 This is where your description should go. Take a look at [contributing.md](contributing.md) to see a to do list.
 
@@ -52,7 +52,7 @@ MIT. Please see the [license file](license.md) for more information.
 
 [link-packagist]: https://packagist.org/packages/samuelvincenzome/laravel-gerencianet
 [link-downloads]: https://packagist.org/packages/samuelvincenzome/gerencianet
-[link-travis]: https://travis-ci.org/samuelvincenzome/gerencianet-laravel
+[link-travis]: https://travis-ci.org/samuelvincenzome/laravel-payment-gerencianet.svg?branch=master
 [link-styleci]: https://styleci.io/repos/207935600
 [link-author]: https://github.com/samuelvincenzome
 [link-contributors]: ../../contributors
