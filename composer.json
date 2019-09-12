@@ -1,0 +1,43 @@
+{
+    "name": "samuelvincenzome/laravel-gerencianet",
+    "description": "Pacote Gerencianet - Laravel com base no SDK PHP da Gerencianet",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Samuel de Vincenzo",
+            "email": "samuelvincenzome@gmail.com"
+        }
+    ],
+    "homepage": "https://github.com/samuelvincenzome/laravel-payment-gerencianet",
+    "keywords": ["Laravel", "gerencianet", "payment"],
+    "require": {
+        "illuminate/support": "~5",
+        "gerencianet/gerencianet-sdk-php": "2.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3.0",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "samuelvincenzome\\gerencianet\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "samuelvincenzome\\gerencianet\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "samuelvincenzome\\gerencianet\\gerencianetServiceProvider"
+            ],
+            "aliases": {
+                "gerencianet": "samuelvincenzome\\gerencianet\\Facades\\gerencianet"
+            }
+        }
+    }
+}
